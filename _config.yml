@@ -1,15 +1,13 @@
-markdown: rdiscount
+markdown: kramdown
 permalink: /:title/
-url: http://github.thinkingbar.com
-#highlighter: pygments
-pygments: true
-name: 飘过的小牛
-description: 飘过的小牛 | Stop talking, start doing.
-author: niushuai
-email: hnns1990@gmail.com
-duoshuo: niushuai
-weibo: 1891858481
-hub: niushuai
+url: http://zozhou.net
+name: zozhou
+description: 用键盘敲下零碎的思绪
+author: zozhou
+email: scar1993@vip.qq.com
+duoshuo: zozhou
+#weibo: 1891858481
+hub: zsc1993916
 safe: true
 paginate: 100
-about: "弱菜一枚。"
+about: "用键盘敲下零碎的思绪"
