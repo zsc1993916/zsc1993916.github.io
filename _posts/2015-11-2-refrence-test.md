@@ -11,9 +11,7 @@ tags: C++ 引用
 
 - C++引用 作为函数返回值，返回栈区数据会warning，但是不会抱错
 
-
-{% highlight java linenos %}
-
+---
 	#include <stdio.h>
 	int & func(int a)
 	{
@@ -28,8 +26,6 @@ tags: C++ 引用
 	    printf("b : %d\n", b);
 	    return 0;
 	}
-
-{% highlight java linenos %}
 
 编译结果：
 
