@@ -25,3 +25,6 @@ tags: WordList
 ---
 #### = =!
 - stats 统计学，统计表
+- integration 结合; 整合; 一体化
+- assembly 装配; 集会
+- executable file 可执行文件
