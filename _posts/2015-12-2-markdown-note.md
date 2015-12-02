@@ -38,10 +38,11 @@ tags: markdown
 >>		code block in blockquotes
 
 7. **代码：** 两边加 ` 符号
-
-(示例： `return 0;`)
+	
+	(示例： `return 0;`)
 
 ---
+
 
 ps:其他用到再补充
 
