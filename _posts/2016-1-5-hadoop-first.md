@@ -10,17 +10,17 @@ tags: BigData Hadoop
 
 ---
 
-#####大数据:
+####大数据:
 1. Volume    容量    （超大文件）
 2. Velocity    速度    （读，存速度，数据分析处理速度）
 3. Variety     种类    （结构化程度）
 
-#####数据结构化程度：
+####数据结构化程度：
 1. structured data
 2. semi-structured data
 3. unstructured data
 
-#####构建分布式： 
+####构建分布式： 
 
 - 数据存储
 - 数据分析
@@ -28,11 +28,11 @@ tags: BigData Hadoop
 
 ---
 
-#####Hadoop
+####Hadoop
 
 Hadoop 泛指一组使用hadoop基础平台进行__分布式计算__和__海量数据处理__的项目。
 
-#####Hadoop生态系统：
+####Hadoop生态系统：
 
 1. Common
 >一系列组件和接口，用于分布式文件系统和通用I/O（序列化，Java RPC 和 持久化数据结构）
