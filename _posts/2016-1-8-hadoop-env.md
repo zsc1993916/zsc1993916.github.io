@@ -114,7 +114,8 @@ __hdfs-site.xml__
 如： start-all.sh, start-hdfs.sh 等
 
 如果启动正常的话
-可在http://localhost:50030和http://localhost:50070分别看到map-reduce和hdfs的相关信息
+
+可在`http://localhost:50030` 和 `http://localhost:50070` 分别看到map-reduce和hdfs的相关信息
 
 ---
 
