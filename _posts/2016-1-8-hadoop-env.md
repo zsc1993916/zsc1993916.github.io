@@ -29,12 +29,8 @@ OS X EI Capitan 10.11.2
 
 1. 权限不足  `system preference --> sharing`
 2. 每次要求输入密码
-
-`ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa`
-生成一对私钥和公钥
-
-`cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys`
-    将公钥追加到授权的key中去
+    - `ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa` 生成一对私钥和公钥
+    - `cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys` 将公钥追加到授权的key中去
 
 ---
 
@@ -48,7 +44,7 @@ OS X EI Capitan 10.11.2
 - __hadoop-env.sh__        配置相关依赖的环境变量
 - __core-site.xml__        配置hdfs地址和端口号
 - __mapred-site.xml__      配置 jobTracker的地址和端口号
-- --hdfs-site.xml--        hdfs其他配置，伪分布式系统中默认备份方式要改为1，否则会报问题。
+- __hdfs-site.xml__        hdfs其他配置，伪分布式系统中默认备份方式要改为1，否则会报问题。
 
 具体修改：
 
