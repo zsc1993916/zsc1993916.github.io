@@ -5,7 +5,7 @@ categories: hadoop
 tags: hadoop
 ---
 
-###  Hadoop OSx伪分布式环境配置
+###  Hadoop OS X 伪分布式环境配置
 
 ---
 
