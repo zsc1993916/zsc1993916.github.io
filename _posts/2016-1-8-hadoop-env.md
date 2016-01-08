@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hadoop OSx伪分布式环境配置
+title: Hadoop OS X 伪分布式环境配置
 categories: hadoop
 tags: hadoop
 ---
