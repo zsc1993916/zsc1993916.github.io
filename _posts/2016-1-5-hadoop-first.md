@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 初识Hadoop
-categories: BigData Hadoop
-tags: BigData Hadoop
+categories: BigData hadoop
+tags: BigData hadoop
 ---
 
 
