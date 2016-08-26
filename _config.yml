@@ -2,7 +2,7 @@
 title: title
 tagline: '  tag line '
 description: 'description'
-baseurl: "/lanyon"
+baseurl: ""
 url: http://www.zozhou.net
 logo: '/public/logo.png'
 
