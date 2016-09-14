@@ -28,10 +28,10 @@ author:
   description: bigdata
   gravatar: 5a2f4adf358d3309865355ca74e49838 # md5 hash of your email address
   contact:
-    linkedin:  linkedin
+    linkedin:  https://www.linkedin.com/
     github:    https://github.com/zsc1993916
     # facebook:  <hide>
-    email:     zhoushunchao93@gmail.com
+    email:     mailto:zhoushunchao93@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
