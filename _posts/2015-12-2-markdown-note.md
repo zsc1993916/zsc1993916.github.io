@@ -42,8 +42,8 @@ tags: markdown
 	(示例： `return 0;`)
 
 8. 通过添加一下代码可增加目录，kramdown自带功能
-> * 目录
-> {:toc}
+	 * 目录
+	 {:toc}
 
 ---
 
