@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: zozhou's 技能加点路线
 ---
 
-## 技术栈
+## Java
 
 ---
 
