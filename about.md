@@ -26,3 +26,11 @@ public void main (String str) {
 String s = "hello world";
 }
 ~~~
+
+---
+
+{% highlight java linenos %}   
+public void main (String str) {
+  String s = "hello world";
+}
+{% endhighlight %}
