@@ -13,6 +13,6 @@ title: zo's 技术栈
 
 ---
 
-  public void main (String str) {
-    String s = "hello world";
-  }
+    public void main (String str) {
+      String s = "hello world";
+    }
