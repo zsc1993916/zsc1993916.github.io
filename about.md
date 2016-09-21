@@ -34,3 +34,11 @@ public void main (String str) {
   String s = "hello world";
 }
 {% endhighlight %}
+
+---
+
+{% highlight java %}   
+public void main (String str) {
+  String s = "hello world";
+}
+{% endhighlight %}
