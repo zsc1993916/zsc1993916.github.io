@@ -60,7 +60,7 @@ category_page: '/blog/categories/'
 
 hero:
   image: /public/img/home2.jpg
-  caption: <marquee scrolldelay=500 align=bottom width=500 height=80 direction=up>该不该搁下重重的壳<br>寻找到底哪里有蓝天<br>随着轻轻的风轻轻的飘<br>历经的伤都不感觉疼<br>我要一步一步往上爬<br>等待阳光静静看着它的脸<br>小小的天有大大的梦想<br>重重的壳裹着轻轻的仰望<br>我要一步一步往上爬<br>在最高点乘着叶片往前飞<br>小小的天留过的泪和汗<br>总有一天我有属于我的天</marquee>
+  caption: <marquee scrolldelay=400 align=bottom width=180 height=80 direction=up>该不该搁下重重的壳<br>寻找到底哪里有蓝天<br>随着轻轻的风轻轻的飘<br>历经的伤都不感觉疼<br>我要一步一步往上爬<br>等待阳光静静看着它的脸<br>小小的天有大大的梦想<br>重重的壳裹着轻轻的仰望<br>我要一步一步往上爬<br>在最高点乘着叶片往前飞<br>小小的天留过的泪和汗<br>总有一天我有属于我的天</marquee>
 
 # Puglins
 mathjax: true # whether support mathjax
