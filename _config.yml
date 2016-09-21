@@ -1,6 +1,6 @@
 # Site Info
 title: zozhou
-tagline: ' keep it up! '
+tagline: ' 重重的壳裹着轻轻的仰望 '
 description: ' 简单，纯粹 '
 baseurl: ""
 url: http://www.zozhou.net
@@ -60,7 +60,7 @@ category_page: '/blog/categories/'
 
 hero:
   image: /public/img/home2.jpg
-  #caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+  caption: 我要一步一步往上爬，在最高点乘着叶片往前飞
 
 # Puglins
 mathjax: true # whether support mathjax
