@@ -1,6 +1,6 @@
 ---
 layout: page
-title: zozhou's 技能加点路线
+title: zo's 技术栈
 ---
 
 ## Java
@@ -10,3 +10,9 @@ title: zozhou's 技能加点路线
 1. dafd
 2. dasfas
 3. dasfadsf
+
+---
+
+  public void main (String str) {
+    String s = "hello world";
+  }
