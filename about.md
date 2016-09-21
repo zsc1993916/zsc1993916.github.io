@@ -13,6 +13,8 @@ title: zo's 技术栈
 
 ---
 
-    public void main (String str) {
-      String s = "hello world";
-    }
+```java
+public void main (String str) {
+String s = "hello world";
+}
+```
