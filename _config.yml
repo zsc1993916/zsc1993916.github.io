@@ -33,7 +33,7 @@ version: 1.0.0
 # About/contact
 author:
   name: zozhou
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
+  description: A passionate <marquee scrollAmount=2 width=300 height=160 direction=up>·早晨好啊！<br>·空气好清新啊<br>·你还好吗<p>·<a href=http://www.cctv.com>靓丽风景线</a></marquee>, learning to be a giant.
   gravatar: 5a2f4adf358d3309865355ca74e49838 # md5 hash of your email address
   contact:
     linkedin:  https://www.linkedin.com/in/zhoushch
