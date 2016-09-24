@@ -4,7 +4,7 @@ title: zo's 技术栈
 ---
 
 * 目录 
-* {:toc}
+{:toc}
 
 ---
 
@@ -36,7 +36,7 @@ title: zo's 技术栈
 * Java动态代理
 * Java多线程
 
-###Jvm
+### Jvm
 * java内存模型以及垃圾回收算法
 * java内存分配模型
 * 内存分配机制
