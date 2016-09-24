@@ -51,7 +51,7 @@ nav:
     - '/blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
-  About:          
+  技能加点图:          
     - '/about/'
   Github Project: 
     - 'https://github.com/zsc1993916/zsc1993916.github.io'
