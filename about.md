@@ -29,7 +29,6 @@ title: zo's 技术栈
 
 ### Java基础
 
-* [Java超级基础](http://www.zozhou.net/java/2015/12/02/java-base/)
 * 正则表达式
 
 ### Java高级特性
