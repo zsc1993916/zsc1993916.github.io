@@ -66,14 +66,10 @@ public class Test {
 	}
 }
 {% endhighlight %}
-	
-输出结果：
-		
+输出结果：	
 	true
-	flase
-		
+	flase	
 解答：`Integer i = 4;` 装箱的本质： `Integer i = Integer.valueOf(4)`
-
 查看Integer类的源码：
 	
 {% highlight java %}	
