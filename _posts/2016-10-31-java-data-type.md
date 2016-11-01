@@ -52,7 +52,7 @@ Java 为每个原始类型提供了包装类型：
 	- java默认的整形类型是int，默认的浮点型是双精度浮点型double。这种写法将double型赋值给float属于向下转型，可能丢失精度。可写成 float f = 3.4F; 或者 float f = (float)3.4;
 
 4. 自动拆装箱题：
-
+	{% highlight java %}
 		public class Test {
    			public static void main(String[] args) {
           	Integer f1 = 100, f2 = 100, f3 = 150, f4 = 150;
@@ -60,7 +60,8 @@ Java 为每个原始类型提供了包装类型：
         		System.out.println(f3 == f4);
     	 	}
 		}
-
+	{% endhighlight %}
+	
 	输出结果：
 		
 		true
