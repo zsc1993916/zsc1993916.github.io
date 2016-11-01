@@ -45,11 +45,16 @@ Java 为每个原始类型提供了包装类型：
 ## 问题汇总
 
 1. String 属不属于基本数据类型？
-	- String是类，不是基本数据类型
+	
+	String是类，不是基本数据类型
+	
 2. int和Integer的区别：
-	- int是基本数据类型，而Integer是int的封装类
-3. float f = 3.4; 这种写法是否正确？
-	- java默认的整形类型是int，默认的浮点型是双精度浮点型double。这种写法将double型赋值给float属于向下转型，可能丢失精度。可写成 float f = 3.4F; 或者 float f = (float)3.4;
+	
+	int是基本数据类型，而Integer是int的封装类
+	
+3. `float f = 3.4;` 这种写法是否正确？
+	
+	java默认的整形类型是int，默认的浮点型是双精度浮点型double。这种写法将double型赋值给float属于向下转型，可能丢失精度。可写成 `float f = 3.4F;` 或者 `float f = (float)3.4;`
 
 4. 自动拆装箱题：
 {% highlight java %}
@@ -62,14 +67,15 @@ public class Test {
 }
 {% endhighlight %}
 	
-	输出结果：
+输出结果：
 		
-		true
-		flase
+	true
+	flase
 		
-	解答：
-	`Integer i = 4;` 装箱的本质： `Integer i = Integer.valueOf(4)`
-	查看Integer类的源码：
+解答：`Integer i = 4;` 装箱的本质： `Integer i = Integer.valueOf(4)`
+
+查看Integer类的源码：
+	
 {% highlight java %}	
 public static Integer valueOf(int i) {
 	assert IntegerCache.high >= 127;
@@ -79,8 +85,8 @@ public static Integer valueOf(int i) {
 }
 {% endhighlight %}
 	
-	可以得知，当数值范围在[IntegerCache.low，IntegerCache.high]直接时，直接返回一个缓存的Integer实例
-	查看IntegerCache源码：
+可以得知，当数值范围在[IntegerCache.low，IntegerCache.high]直接时，直接返回一个缓存的Integer实例
+查看IntegerCache源码：
 	
 {% highlight java %}
 private static class IntegerCache {
@@ -107,9 +113,10 @@ private static class IntegerCache {
 }
 {% endhighlight %}
 	
-	Integer默认的Cache范围是[-128,127]，上限也可以配置`java.lang.Integer.IntegerCache.high`,取默认值和配置值的大值。
-	
-	`==` 操作符比较的引用变量的值（地址值），所以如果是返回的Cache里的Integer对象，结果为true，否则为 false。如果把`==`换成`equals()`结果都为true。
+Integer默认的Cache范围是[-128,127]，上限也可以配置`java.lang.Integer.IntegerCache.high`,取默认值和配置值的大值。
+
+`==` 操作符比较的引用变量的值（地址值），所以如果是返回的Cache里的Integer对象，结果为true，否则为 false。如果把`==`换成`equals()`结果都为true。
+
 {% highlight java %}
 public boolean equals(Object obj) {
 	if (obj instanceof Integer) {
