@@ -6,8 +6,6 @@ tags: java
 published: true
 ---
 
-## 摘要:
-
 * 目录
 {:toc}
 
