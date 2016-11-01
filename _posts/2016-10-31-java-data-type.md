@@ -65,7 +65,7 @@ public class Test {
 		System.out.println(f3 == f4);
 	}
 }
->{% endhighlight %}
+{% endhighlight %}
 >输出结果：	
 >	true
 >	flase
