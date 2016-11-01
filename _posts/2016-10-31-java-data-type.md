@@ -8,9 +8,8 @@ published: true
 
 ## 摘要:
 
-1. Java数据类型分类
-2. Java基本类型封装
-3. 问题汇总
+* 目录
+{:toc}
 
 ---
 
