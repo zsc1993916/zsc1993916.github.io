@@ -44,19 +44,19 @@ Java 为每个原始类型提供了包装类型：
 
 ## 问题汇总
 
-- __String 属不属于基本数据类型？__
+- ___String 属不属于基本数据类型？___
 	
 	String是类，不是基本数据类型
 	
-- __int和Integer的区别?__
+- ___int和Integer的区别?___
 	
 	int是基本数据类型，而Integer是int的封装类
 	
-- __`float f = 3.4;` 这种写法是否正确？__
+- ___`float f = 3.4;` 这种写法是否正确？___
 	
 	java默认的整形类型是int，默认的浮点型是双精度浮点型double。这种写法将double型赋值给float属于向下转型，可能丢失精度。可写成 `float f = 3.4F;` 或者 `float f = (float)3.4;`
 
-- __自动拆装箱题：__
+- ___自动拆装箱题：___
 {% highlight java %}
 public class Test {
 	public static void main(String[] args) {
