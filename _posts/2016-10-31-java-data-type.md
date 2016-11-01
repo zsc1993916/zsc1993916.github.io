@@ -44,11 +44,11 @@ Java 为每个原始类型提供了包装类型：
 
 ## 问题汇总
 
-- ___String 属不属于基本数据类型？___
+- __*String 属不属于基本数据类型？*__
 	
 	String是类，不是基本数据类型
 	
-- ___int和Integer的区别?___
+- __int和Integer的区别?__
 	
 	int是基本数据类型，而Integer是int的封装类
 	
